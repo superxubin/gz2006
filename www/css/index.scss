@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+i{
+  font-style: normal;
+}
+header{
+    width: 100%;
+    height: 78px;
+    background-color: #181718;
+     position: relative;
+    .min{
+        width: 1230px;
+        height: 100%;
+        margin: 0 auto;  
+    .deng{
+      font-size: 16px;
+      float: right;
+      margin-right: 20px;
+      margin-top: 25px;
+      color: white;
+    span{
+        color: #e9852d;
+          &:hover{
+            cursor:pointer;
+          
+          }
+     
+      }
+    }
+    img{
+        float: left;
+        margin:13px 0 0 0;
+    }
+    .list{
+        color: white;
+        font-size: 18px;
+        float: left;
+        margin-left: 25px;
+        margin-bottom: 0;
+       
+        li{
+            float: left;
+            width: 140px;
+            margin-top: 20px;
+            text-align: center;
+            .p1{
+                font-size: 11px;
+                color: #cccccc;
+            }
+            p{
+                margin: 0;
+            }     
+        }  
+    }
+} 
+}  
+    .yinMin{
+        width: 100%;
+        height: 230px;
+        position: absolute;
+        left: 0px;
+        top: 78px;
+    //   z-index: 2;   
+        .bao{ 
+            width: 100%;
+            height: 100%;
+            position: relative;
+            .gekai{
+               position: absolute;
+               left: 335px;
+                ul{
+                    width: 140px;;
+                    float: left;
+        
+                    li{
+                        text-align: center;
+                        margin-top: 8px;
+                        &:hover{
+                            a{
+                                color: #e9852d ;
+                            }
+                        }
+                        a{
+                            color: white;
+                        }
+                    }
+                }
+            }
+                   
+        }
+        }
+       
+    .yin{
+        width: 100%;    
+        height: 230px;
+        position: absolute;
+        left: 0px;
+        top: 78px;
+        // z-index: 1;
+        background-color: #181718;
+        opacity: 0.4; 
+    // display: none;
+    }
+
+section{
+    background-color: #e3e2e2;
+    width: 100%;
+    position: relative;
+}
+
+
+footer{
+    width: 100%;
+    height: 265px;
+    background-color: #e3e2e2;
+    .footerMin{
+        width: 1230px;
+        margin: 0 auto;
+        font-size: 12px;
+        color: #9f9378;
+    .left{
+        float: left;
+       
+    }
+    .right{
+        float: right;
+        margin-top: 50px;
+        a{
+            color: #9f9378;
+        }
+    }
+    }
+}
